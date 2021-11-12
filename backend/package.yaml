@@ -1,0 +1,21 @@
+name:                backend
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/lovelyckaro/backend#readme
+license:             BSD3
+author:              Love Lyckaro
+maintainer:          love.lyckaro@hotmail.se
+copyright:           Love Lyckaro
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - scotty
+
+executables:
+  backend:
+    source-dirs:      src
+    main:             Main.hs
