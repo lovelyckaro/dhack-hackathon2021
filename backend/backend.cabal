@@ -25,5 +25,6 @@ executable backend
       src
   build-depends:
       base >=4.7 && <5
+    , blaze-html
     , scotty
   default-language: Haskell2010
