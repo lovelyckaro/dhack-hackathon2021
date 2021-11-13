@@ -25,5 +25,8 @@ executable backend
       src
   build-depends:
       base >=4.7 && <5
+    , blaze-html
+    , containers
     , scotty
+    , transformers
   default-language: Haskell2010
